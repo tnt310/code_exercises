@@ -1,0 +1,32 @@
+----------------socket programming-----------------------
+
+1. Desktop UI
+- Scan device in local network and show device information on ui (broadcast or multicast)
+- Allow configures: IP(DHCP or static), NETMASK, DEFAULT GATEWAY
+
+2. Raspberry firmaware
+- Respond desktop ui message
+- Configure parameters
+
+--------------IPC, multithread, race condition------------------------------
+
+1. Brief
+Create three threads: Modbus RTU, socket client, socket server
+- Modbus RTU: Read data from simulator
+- socket client: transfer data to socket server
+- socket server: listen, accept connection and read data from client
+
+2. Implemention
+- Modbus RTU + socket client: maybe Desktop UI (client simulator on desktop)
+- socket server: save data in database, chart on grafana
+
+https://www.facebook.com/groups/259967441230713/posts/634408550453265/
+https://www.facebook.com/groups/259967441230713/posts/546279312599523/
+https://www.facebook.com/groups/259967441230713/posts/658590051368448/
+https://vdodata.vn/tim-hieu-ve-mo-hinh-client-server-va-client-server-la-gi/?fbclid=IwAR1ojpwQmsUvy0CBNHRee4pZRnyehKzJjhrUCss1tt-1e92ND59qYSKZ7RA
+https://www.facebook.com/groups/259967441230713/posts/376746659552790/
+https://www.facebook.com/groups/259967441230713/posts/887936078433843/
+https://www.facebook.com/groups/259967441230713/posts/906307043263413/
+https://www.facebook.com/groups/259967441230713/posts/429110284316427/
+https://www.facebook.com/groups/259967441230713/posts/429497364277719/
+
