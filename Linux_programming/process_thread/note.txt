@@ -1,0 +1,7 @@
+https://www.geeksforgeeks.org/difference-between-process-parent-process-and-child-process/?ref=rp
+https://www.geeksforgeeks.org/using-fork-produce-1-parent-3-child-processes/?ref=rp
+https://www.geeksforgeeks.org/fork-system-call/
+
+https://www.section.io/engineering-education/fork-in-c-programming-language/#:~:text=In%20the%20computing%20field%2C%20fork,also%20kills%20the%20child%20process.
+
+

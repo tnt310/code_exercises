@@ -20,13 +20,19 @@ Create three threads: Modbus RTU, socket client, socket server
 - Modbus RTU + socket client: maybe Desktop UI (client simulator on desktop)
 - socket server: save data in database, chart on grafana
 
-https://www.facebook.com/groups/259967441230713/posts/634408550453265/
-https://www.facebook.com/groups/259967441230713/posts/546279312599523/
-https://www.facebook.com/groups/259967441230713/posts/658590051368448/
-https://vdodata.vn/tim-hieu-ve-mo-hinh-client-server-va-client-server-la-gi/?fbclid=IwAR1ojpwQmsUvy0CBNHRee4pZRnyehKzJjhrUCss1tt-1e92ND59qYSKZ7RA
-https://www.facebook.com/groups/259967441230713/posts/376746659552790/
-https://www.facebook.com/groups/259967441230713/posts/887936078433843/
-https://www.facebook.com/groups/259967441230713/posts/906307043263413/
-https://www.facebook.com/groups/259967441230713/posts/429110284316427/
-https://www.facebook.com/groups/259967441230713/posts/429497364277719/
+-----------Process, Multithread, IPC-------------------------------------------
 
+1. Brief
+- Server in listening mode, accept connection and process request from client
+- Server: 2 process (1: Qt application with some fuctions, 2: Grafana)
+- Client: 2 process (1: uplink packet, 2: downlink packet)
+
+2. Implemention
+
+2.1 Server
+
+- Process for all connection from server
+
+2.2 Client
+- Uplink flow: Read data and send to server
+- Downlink flow: Receive and excute request

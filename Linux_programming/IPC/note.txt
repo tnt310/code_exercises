@@ -1,0 +1,5 @@
+https://www.geeksforgeeks.org/chat-application-between-two-processes-using-signals-and-shared-memory/?ref=rp
+https://www.geeksforgeeks.org/fork-memory-shared-bw-processes-created-using/
+https://opensource.com/article/19/4/interprocess-communication-linux-storage
+https://www.geeksforgeeks.org/inter-process-communication-ipc/
+https://www.geeksforgeeks.org/methods-in-interprocess-communication/
